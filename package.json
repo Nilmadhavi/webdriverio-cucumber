@@ -1,0 +1,21 @@
+{
+  "name": "webdriverio-cucumber",
+  "version": "1.0.0",
+  "description": "webdriverio cucumber project",
+  "main": "index.js",
+  "scripts": {
+    "test-firefox": "SELENIUM_BROWSER=firefox ./node_modules/webdriverio/bin/wdio wdio.conf.js",
+    "test-safari": "SELENIUM_BROWSER=safari ./node_modules/webdriverio/bin/wdio wdio.conf.js",
+    "test-chrome": "SELENIUM_BROWSER=chrome ./node_modules/webdriverio/bin/wdio wdio.conf.js"
+  },
+  "author": "nilmadhavibehera@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "webdriverio": "^4.14.0"
+  },
+  "devDependencies": {
+    "wdio-cucumber-framework": "^2.2.7",
+    "wdio-selenium-standalone-service": "0.0.10"
+  }
+}
